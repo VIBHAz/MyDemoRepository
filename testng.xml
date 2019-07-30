@@ -3,7 +3,7 @@
 <suite name="Amazon suit">
   <test thread-count="5" name="Test1">
     <classes>
-      <class name="AmazonTest.Amazon.TestClass"/>
+      <class name="TestCases.LoginPageTest"/>
     </classes>
   </test> <!-- Test -->
   
