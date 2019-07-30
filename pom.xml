@@ -24,7 +24,7 @@
     <dependency>
   <groupId>org.apache.maven.plugins</groupId>
   <artifactId>maven-compiler-plugin</artifactId>
-  <version>3.8.0</version>
+  <version>3.8.1</version>
   <type>maven-plugin</type>
 </dependency>
     <dependency>
@@ -32,11 +32,27 @@
     <artifactId>selenium-java</artifactId>
     <version>3.14.0</version>    
 </dependency>
+<dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi-ooxml</artifactId>
+    <version>3.9</version>
+</dependency>
+
+<dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi</artifactId>
+    <version>4.1.0</version>
+</dependency>
     <dependency>
     <groupId>org.apache.maven.plugins</groupId>
     <artifactId>maven-install-plugin</artifactId>
     <version>2.4</version>
- </dependency>   
+ </dependency>
+ <dependency>
+    <groupId>log4j</groupId>
+    <artifactId>log4j</artifactId>
+    <version>1.2.17</version>
+</dependency>    
   </dependencies>
 <build>
  <plugins>
@@ -59,6 +75,7 @@
  
 <suiteXmlFiles>
 <suiteXmlFile>testNG.xml</suiteXmlFile>
+
 </suiteXmlFiles>
  
 </configuration>
